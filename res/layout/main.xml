@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+   <Button android:layout_width="match_parent"
+           android:layout_height="wrap_content" android:text="°F to °C" android:id="@+id/button_f2c"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="°C to °F"
+            android:id="@+id/button_c2f"
+            android:layout_gravity="center_horizontal"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HELP!"
+            android:id="@+id/button_help"
+            android:layout_gravity="center_horizontal"/>
+
+
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/fragment_container">
+
+        <fragment android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:name="edu.umb.cs443.nicholas.rosato.hw2.F2C_Fragment"
+                  tools:layout="@layout/fragment_f2c" android:id="@+id/f2c_convert"/>
+    </FrameLayout>
+</LinearLayout>
+

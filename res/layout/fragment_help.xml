@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="@android:color/black"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:weightSum="1">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fahrenheit (symbol F)is a temperature scale based on one proposed in 1774 by the German physicist Daniel Gabriel Fahrenheit(1686 -1736), after whome the scale is named. Celsius, also known as Centegrade, is a scale and unit of measurement for temperature. It is named after the Swedish Scientist Anders Celsius(1701-1744), who developed a similar temperature scale. Temperature is the measure of the average random molecular kinetic energy in a substance."
+            android:id="@+id/textView" android:layout_weight="0.28"/>
+</LinearLayout>
